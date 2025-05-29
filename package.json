@@ -1,0 +1,23 @@
+{
+  "name": "book_review_system_billeasy",
+  "version": "1.0.0",
+  "description": "Objective: Build a RESTful API using Node.js (with Express) for a basic Book Review system. This assignment is designed to assess your understanding of backend fundamentals, authentication, and clean API design.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
